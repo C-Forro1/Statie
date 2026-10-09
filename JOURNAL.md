@@ -10,7 +10,7 @@
 
 | Week | Tier | Hours logged | Entries |
 | --- | --- | --- | --- |
-| Week 1 | Tier 1 | 2.5h | 2 |
+| Week 1 | Tier 1 | 4.8h | 2 |
 
 ## Contents
 
@@ -31,10 +31,14 @@ Today I opened up KiCAD and began working. I installed all of the necessary comp
 
 ### 2026-10-07 – ![Screenshot 2026-10-08 230341](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/n8RBkyNcY4di4XY0jFRnwlBOdHd9JgjG/9520bdabe7d10003c43602571faacafff19b52a1a587cb82182933e9b31112a8.png)
 
-**1.18h**
+**3.48h**
 
 ![Screenshot 2026-10-08 230341](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/n8RBkyNcY4di4XY0jFRnwlBOdHd9JgjG/9520bdabe7d10003c43602571faacafff19b52a1a587cb82182933e9b31112a8.png)
 
 ![Screenshot 2026-10-08 230348](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/n8RBkyNcY4di4XY0jFRnwlBOdHd9JgjG/0c8b328033dc09ef65ed82e616468e4d83075c2dd5052dd69a326e61fe79e971.png)
+
+![Screenshot 2026-10-08 230603](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/n8RBkyNcY4di4XY0jFRnwlBOdHd9JgjG/eef20349cafd538098fa304a612dffd2ada13f3856e4e25190e9e233d785a84d.png)
+
+![Screenshot 2026-10-08 230617](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/n8RBkyNcY4di4XY0jFRnwlBOdHd9JgjG/998118a8f7ce1976f920f6ee01088c021e6710577a5a72eb3841591dfadb0f30.png)
 
 Today I finished modeling the components in the Schematic Editor. To summarize, I am modeling the Statie after the Starbie, but I am changing the code, layout and design of the board, removing the gyroscope, and adding internet connective to the microcontroller. I did not add the 8-Pin component that would be used for the gyroscope. After, I began importing the models into the PCB editor. I ran into some problem between importing the schematic and matching the PCB editor with the PCB editor from the 'Starbie' project. I had to go back into the Schematic editor and link all of the connections between the modules manually  instead of having KiCAD do it with NET labels, flip the 4-Pin that's used for the screen, and I had to rearrange the connections so I could connect everything without using the 8-Pin, since it was removed. Then, I GND filled the entire front and back of the board and finished it off with making a poor attempt at trying to get images onto the PCB.
