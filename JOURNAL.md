@@ -10,12 +10,12 @@
 
 | Week | Tier | Hours logged | Entries |
 | --- | --- | --- | --- |
-| Week 1 | Tier 1 | 6.32h | 2 |
+| Week 1 | Tier 1 | 2.5h | 2 |
 
 ## Contents
 
 1. [2026-10-06 – Today I opened up KiCAD and began working. I installed all of the necessary components to build Starbie and began working. I built the schematic (after spending forever trying to find key combinations](#2026-10-06-today-i-opened-up-kicad-and-began-working-i-insta)
-2. [2026-10-07 – Today I finished modeling the components in the Schematic Editor. To summarize, I am modeling the Statie after the Starbie, but I am changing the code, layout and design of the board, removing the gyr](#2026-10-07-today-i-finished-modeling-the-components-in-the-s)
+2. [2026-10-07 – ![Screenshot 2026-10-08 230341](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/n8RBkyNcY4di4XY0jFRnwlBOdHd9JgjG/9520bdabe7d10003c43602571faacafff19b52a1a587cb82182933e9b31112a8.png)](#2026-10-07-screenshot-2026-10-08-230341httpshalflifehackclub)
 
 ## Design
 
@@ -29,10 +29,12 @@ Today I opened up KiCAD and began working. I installed all of the necessary comp
 
 [Timelapse](https://lookout.hackclub.com/api/media/a158c68f-80f7-4262-80a1-4dd72405130b/video.mp4)
 
-### 2026-10-07 – Today I finished modeling the components in the Schematic Editor. To summarize, I am modeling the Statie after the Starbie, but I am changing the code, layout and design of the board, removing the gyr
+### 2026-10-07 – ![Screenshot 2026-10-08 230341](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/n8RBkyNcY4di4XY0jFRnwlBOdHd9JgjG/9520bdabe7d10003c43602571faacafff19b52a1a587cb82182933e9b31112a8.png)
 
-**5h**
+**1.18h**
+
+![Screenshot 2026-10-08 230341](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/n8RBkyNcY4di4XY0jFRnwlBOdHd9JgjG/9520bdabe7d10003c43602571faacafff19b52a1a587cb82182933e9b31112a8.png)
+
+![Screenshot 2026-10-08 230348](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/n8RBkyNcY4di4XY0jFRnwlBOdHd9JgjG/0c8b328033dc09ef65ed82e616468e4d83075c2dd5052dd69a326e61fe79e971.png)
 
 Today I finished modeling the components in the Schematic Editor. To summarize, I am modeling the Statie after the Starbie, but I am changing the code, layout and design of the board, removing the gyroscope, and adding internet connective to the microcontroller. I did not add the 8-Pin component that would be used for the gyroscope. After, I began importing the models into the PCB editor. I ran into some problem between importing the schematic and matching the PCB editor with the PCB editor from the 'Starbie' project. I had to go back into the Schematic editor and link all of the connections between the modules manually  instead of having KiCAD do it with NET labels, flip the 4-Pin that's used for the screen, and I had to rearrange the connections so I could connect everything without using the 8-Pin, since it was removed. Then, I GND filled the entire front and back of the board and finished it off with making a poor attempt at trying to get images onto the PCB.
-
-[Timelapse](https://lookout.hackclub.com/api/media/aaa2047e-7f06-4ec4-9955-69d86fe39fe2/video.mp4)
