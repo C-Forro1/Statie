@@ -10,7 +10,7 @@
 
 | Week | Tier | Hours logged | Entries |
 | --- | --- | --- | --- |
-| Week 1 | Tier 1 | 6.34h | 2 |
+| Week 1 | Tier 1 | 6.84h | 2 |
 
 ## Contents
 
@@ -31,7 +31,7 @@ Today I opened up KiCAD and began working. I installed all of the necessary comp
 
 ### 2026-10-07 – Today I finished modeling the components in the Schematic Editor. To summarize, I am modeling the Statie after the Starbie, but I am changing the code, layout and design of the board, removing the gyr
 
-**5.02h**
+**5.52h**
 
 Today I finished modeling the components in the Schematic Editor. To summarize, I am modeling the Statie after the Starbie, but I am changing the code, layout and design of the board, removing the gyroscope, and adding internet connective to the microcontroller. I did not add the 8-Pin component that would be used for the gyroscope. After, I began importing the models into the PCB editor. I ran into some problem between importing the schematic and matching the PCB editor with the PCB editor from the 'Starbie' project. I had to go back into the Schematic editor and link all of the connections between the modules manually  instead of having KiCAD do it with NET labels, flip the 4-Pin that's used for the screen, and I had to rearrange the connections so I could connect everything without using the 8-Pin, since it was removed. Then, I GND filled the entire front and back of the board and finished it off with making a poor attempt at trying to get images onto the PCB.
 
